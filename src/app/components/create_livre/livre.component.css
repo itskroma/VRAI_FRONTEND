@@ -1,0 +1,32 @@
+.my-button2 {
+  margin-right: 100px;
+}
+
+.my-button3 {
+  margin-right: 10px;
+}
+
+.add{
+  font-size: 20px; /* Augmenter la taille de la police */
+  padding: 12px 24px; /* Augmenter l'espace autour du texte */
+  margin-right: 10px;
+  border-radius: 5px; /* Arrondir les coins des boutons */
+  cursor: pointer; /* Changer le curseur en main lorsqu'il survole le bouton */
+}  
+
+.input-container {
+  background-color: #f0f0f0; /* Choisir la couleur que vous préférez */
+  padding: 20px; /* Ajouter un peu d'espace autour du contenu */
+  border-radius: 10px; /* Arrondir les coins du carré */
+  display: inline-block; /* Mettre le carré en ligne avec le reste du contenu */
+}
+
+
+.titreliste {
+  font-family: "Times New Roman", serif;
+  font-size: 40px;
+  text-shadow: 2px 2px #000000;
+  color: #ffffff;
+  text-align: center; /* Centrer le texte horizontalement */
+  margin-top: 30px; /* Ajouter un espace entre le texte et le carré coloré */
+}

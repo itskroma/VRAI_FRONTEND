@@ -1,0 +1,17 @@
+<div class="titreliste">Voici la liste des livres</div>
+<br><br>
+<div class="liste-livres">
+  <li *ngFor="let livre of livres">
+    <span>{{ livre.titre }} - {{ livre.auteur }}</span>
+    <button (click)="modifierLivre(livre)" class="my-button2">Modifier</button>
+    <button (click)="supprimerLivre(livre)" class="my-button"> Supprimer </button>
+    <br>
+    <br>
+  </li>
+  
+  <div *ngIf="confirmationMessage">
+    {{ confirmationMessage }}
+  </div>
+</div>
+<br>
+<br>

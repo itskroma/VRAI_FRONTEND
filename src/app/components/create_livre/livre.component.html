@@ -1,0 +1,18 @@
+<h2 class="titreliste">Ajouter un livre</h2>
+<form>
+  <div class="input-container">
+    <label for="titre" class="my-button3">Titre:</label>
+    <input type="text" id="titre" name="titre" class="my-button2" [(ngModel)]="titre">
+    <label for="auteur" class="my-button3">Auteur:</label>
+    <input type="text" id="auteur" name="auteur" [(ngModel)]="auteur">
+    <br>
+    <br>
+    <br>
+  </div>
+  <br><br>
+  <button (click)="ajouterLivre()" class="add">Ajouter</button>
+  <br><br>
+  <div *ngIf="confirmationMessage">
+    {{ confirmationMessage }}
+  </div>
+</form>

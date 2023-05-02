@@ -1,0 +1,47 @@
+.my-button {
+  font-size: 20px; /* Augmenter la taille de la police */
+  padding: 12px 24px; /* Augmenter l'espace autour du texte */
+  margin-right: 10px;
+  border-radius: 5px; /* Arrondir les coins des boutons */
+  cursor: pointer; /* Changer le curseur en main lorsqu'il survole le bouton */
+}
+
+.button-container {
+  text-align: center;
+}
+
+.titre-container {
+  text-align: center;
+}
+
+header {
+  background-image: url("/assets/bckg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #eb9f58;
+  padding: 20px;
+  text-align: center;
+  margin-top: 0px;
+  height: 250px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+  font-family: "Times New Roman", serif;
+  font-size: 80px;
+  text-shadow: 3px 3px #000000;
+  color: #ffffff;
+}
+
+body {
+  margin: 0;
+  background-color: #e9c9ab;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

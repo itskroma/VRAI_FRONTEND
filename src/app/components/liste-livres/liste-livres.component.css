@@ -1,0 +1,28 @@
+.my-button {
+  margin-right: 10px;
+}
+
+.my-button2 {
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.titreliste {
+  font-family: "Times New Roman", serif;
+  font-size: 80px;
+  text-shadow: 3px 3px #000000;
+  color: #ffffff;
+  text-align: center; /* Centrer le texte horizontalement */
+  margin-top: 30px; /* Ajouter un espace entre le texte et le carré coloré */
+}
+
+.liste-livres {
+  background-color: #f0f0f0; /* Choisissez la couleur que vous préférez */
+  padding: 69px; /* Ajouter un peu d'espace autour du contenu de la liste */
+  width: 800px; /* Largeur fixe pour le carré */
+  height: 200px; /* Hauteur fixe pour le carré */
+  overflow-y: auto; /* Ajoutez une barre de défilement si le contenu dépasse la hauteur */
+  margin: 0 auto; /* Centrer le carré horizontalement */
+  border-radius: 20px; /* Arrondir les coins du carré */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); /* Ajouter un ombrage à la zone colorée */
+}
